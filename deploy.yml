@@ -19,4 +19,4 @@ spec:
       - name: mycont
         image: nginx
         ports:
-          - containersport: 80
+          - containerport: 80
