@@ -10,13 +10,13 @@ spec:
     env: dev
   template:
     metadata:
-    name: mypod1
-    labels:
-      app: web
-      env: dev
+      name: mypod1
+      labels:
+        app: web
+        env: dev
     spec:
       containers:
       - name: mycont
         image: nginx
         ports:
-          - containerPort: 80
+          - containersport: 80
