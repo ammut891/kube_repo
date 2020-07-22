@@ -4,8 +4,8 @@ metadata:
   name: mydep
 spec:
   replicas: 3
-  slector:
-  matchLables:
+  selector:
+  matchLabels:
     app: web
     env: dev
 template:
